@@ -2,7 +2,7 @@
 frase = input('Digite uma frase de 10 a 30 caracteres: ')
 tamanho = len(frase)
 
-while tamanho < 10:
+while tamanho < 10 or tamanho > 30:
   frase = input('Tente denovo, uma frase de 10 a 30 caracteres: ')
   tamanho = len(frase)
 
